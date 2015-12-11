@@ -45,6 +45,7 @@ var PokemonDetail = React.createClass({
                                       Moves: <br></br>{moves}
                 <img src={this.state.pokemon.image_url}></img>
               </div>
+              {this.props.children}
               </div>
             </div>
            );
